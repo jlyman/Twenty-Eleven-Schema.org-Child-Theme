@@ -49,7 +49,7 @@ get_header(); ?>
 						<h2><?php printf( __( 'About <span itemprop="name">%s</span>', 'twentyeleven' ), get_the_author() ); ?></h2>
 						<span itemprop="description"><?php the_author_meta( 'description' ); ?></span>
 					</div><!-- #author-description	-->
-				</div><!-- #entry-author-info -->
+				</div><!-- #author-info -->
 				<?php endif; ?>
 
 				<?php /* Start the Loop */ ?>
